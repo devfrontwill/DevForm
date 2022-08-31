@@ -31,7 +31,7 @@ const mensagensDeErro = {
     },
     senha: {
         valueMissing: 'O campo de senha não pode estar vazio.',
-        patternMismatch: 'A senha deve conter entre 6 a 12 caracteres, deve conter pelo menos uma letra maiúscula, um número e não deve conter símbolos.'
+        patternMismatch: 'A senha deve conter entre 6 a 12 caracteres, deve conter pelo menos uma letra Maiúscula, um Número e um Símbolo[!@#$%¨&*()-+=.].'
     },
     dataNascimento: {
         valueMissing: 'O campo de data de nascimento não pode estar vazio.',
