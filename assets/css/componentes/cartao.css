@@ -1,5 +1,5 @@
 .cartao {
-    background-color: var(--cor-contraste-claro);
+    background-color: #1b1b1b;
     border-radius: 10px;
     box-shadow: var(--sombra);
     width: 100%;
@@ -7,9 +7,11 @@
     padding: 1.75rem;
     box-sizing: border-box;
     margin-bottom: 1rem;
+    margin-top: 4rem;
 }
 
 .cartao__titulo {
     font-size: var(--fonte-tamanho-cartao-titulo);
     margin-bottom: 1rem;
+    color: var(--cor-contraste-claro);
 }

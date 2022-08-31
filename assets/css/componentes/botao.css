@@ -1,16 +1,21 @@
 .botao {
     display: block;
-    background-color: var(--cor-primaria);
-    border-radius: 7px;
+    cursor: pointer;
+    color: #FFFFFF;
     width: 100%;
     margin-top: 1rem;
     max-width: 20rem;
     padding: 1.125rem;
     box-sizing: border-box;
-    color: var(--cor-contraste-claro);
+    
     font-size: var(--fonte-tamanho-botao);
     align-self: center;
     text-align: center;
+
+    background: #3F8E00;
+    border: 1px solid #62BA1B;
+    box-shadow: 0px 8px 30px rgba(63, 142, 0, 0.5);
+    border-radius: 4px;
 }
 
 .botao-simples {

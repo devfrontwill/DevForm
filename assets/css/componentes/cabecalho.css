@@ -1,12 +1,14 @@
 
 .cabecalho {
-    background-color: var(--cor-contraste-claro);
+    background-color: #1b1b1b;
+    color: var(--cor-contraste-claro);
     border-radius: 0 0 10px 10px;
     box-shadow: var(--sombra);
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: center;
     height: 4.75rem;
+    width: 100vw;
     margin-bottom: 2rem;
 }
 
@@ -21,3 +23,4 @@
 .cabecalho__link {
     margin-left: 2rem;
 }
+

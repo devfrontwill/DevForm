@@ -2,7 +2,7 @@
 @import url(_variaveis.css);
 
 body {
-	background-color: var(--cor-secundaria);
+	background-color: #fff000;
 	color: var(--cor-contraste-escuro);
 	font-family: var(--fonte-familia-corpo);
 	overflow-x: hidden;

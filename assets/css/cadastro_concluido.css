@@ -3,11 +3,11 @@
     flex-direction: column;
     align-items: center;
 
-    padding-top: 1rem;
+    padding-top: 2rem;
 }
 
 .cadastro-cabecalho__logo {
-    width: 2.625rem;
+    width: 10rem;
     margin-bottom: 0.5rem;
 }
 
@@ -15,6 +15,7 @@
     font-family: var(--fonte-familia-logo);
     font-size: var(--fonte-tamanho-logo);
     margin-bottom: 1rem;
+    color: var(--cor-contraste-claro);
 }
 
 .cadastro-cartao {
@@ -43,7 +44,7 @@
 
 @media(min-width: 800px) {
     .cadastro-cabecalho__logo {
-        width: 5.75rem;
+        
         margin-bottom: 1rem;
     }
 

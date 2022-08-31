@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Doguito Petshop | Cadastro de produto</title>
+    <title>DevForm | Cadastro de produto</title>
+    <link rel="shortcut icon" type="image/jpg" href="./assets/img/logo.png"/>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="./assets/css/base/base.css">
@@ -16,36 +17,39 @@
 </head>
 <body>
     <header class="cabecalho container">
-        <img src="./assets/img/doguitoadm.svg" alt="Logo Doguito" class="cabecalho__logo">
+        <img src="./assets/img/logo.png" alt="Logo Doguito" class="cabecalho__logo">
         <nav>
             <ul class="cabecalho__lista-navegacao">
                 <li class="cabecalho__link"><a href="#">Dashboard</a></li>
                 <li class="cabecalho__link"><a href="#">Produtos</a></li>
-                <li class="cabecalho__link"><a href="lista_cliente.html">Clientes </a></li>
-                <li class="cabecalho__link"><a href="#">Pets</a></li>
+                <li class="cabecalho__link"><a href="#">Clientes </a></li>                
             </ul>
         </nav>
     </header>
+
     <main class="container flex flex--centro flex--coluna">
         <section class="cartao cadastro">
             <h1 class="cartao__titulo">Cadastrar um produto</h1>
             <form action="./cadastro_produto_concluido.html" class="flex flex--coluna">
                 <div class="input-container">
-                    <input name="nome" id="nome" class="input" type="text" placeholder="Nome" data-tipo="nome" required>
+                    <input name="nome" id="nome" class="input" type="text" placeholder="Nome" data-tipo="nome" minlength="6" required>
                     <label class="input-label" for="nome">Nome</label>
                     <span class="input-mensagem-erro">Este campo não está válido</span>
                 </div>
+
                 <div class="input-container cadastro__preco-container">
                     <input name="preco" id="preco" class="input" type="text" placeholder="Preço" data-tipo="preco" required>
+
                     <label class="input-label" for="preco">Preço</label>
                     <span class="input-mensagem-erro">Este campo não está válido</span>
                 </div>
+
                 <div class="input-container cadastro__descricao-container">
                     <input class="input" name="descricao" id="descricao" placeholder="Descrição">
                     <label class="input-label" for="descricao">Descrição</label>
                     <span class="input-mensagem-erro">Este campo não está válido</span>
-                </div>
-                <button class="botao">Cadastrar produto</button>
+                </div>            
+                <button class="botao">Cadastrar Produto</button>
             </form>
         </section>
     </main>
