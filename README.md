@@ -1,4 +1,4 @@
-# FormularioPetShop
+# DevForm
 
-<h2> Formulario criado com JS usando REGEX para validação de senhas, consumindo API via CEP para preenchimento automatico dos campos de endereço e validação.
-Com script criado para definir que somente maiores de 18 anos podem se cadastrar no formulario. Layout simples foco no JavaScript. </h2>
+<h2> Formulário criado com JS usando expressões regulares (REGEX) para validação de senhas e definições de padrões dos demais campos do formulário, foi consumido a API via CEP para preenchimento automático dos campos de endereço e validação.
+ Neste projeto pude ir um pouco mais a fundo na linguagem JavaScript e pretendo me aprofundar ainda mais antes de partir para algum Framework. Layout simples foco no JavaScript. </h2>
